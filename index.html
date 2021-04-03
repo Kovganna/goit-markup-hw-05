@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-  </head>
+    </head>
 
   <body>
     <header class="head">
@@ -59,8 +59,16 @@
       <section class="section decision hero-foto">
         <div>
           <h1 class="hero-titel">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button primary">Заказать услугу</button>
-        <div class="backdrop"></div>
+          <button type="button" class="button primary" data-modal-open>Заказать услугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="icon-x" data-modal-close>
+                <svg class="icon-close" width="18" height="18">
+                  <use href="./img/icons.svg#icon-close"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -137,40 +145,40 @@
             <li class="ability-img">
               <div class="label">
                 <div class="label-item">
-                <p class="label-text">Десктопные приложения</p>
-              </div>
-              <img
-                src="./img/picture1.jpg"
-                width="370"
-                height="294"
-                alt="worck with computer"
-              />
-             </div>
-            </li>
-            <li class="ability-img">
-              <div class="label">
-                <div class="label-item">
-                <p class="label-text">Мобильные приложения</p>
+                  <p class="label-text">Десктопные приложения</p>
                 </div>
-              <img
-                src="./img/picture2.jpg"
-                width="370"
-                height="294"
-                alt="hand with phone"
-              />
+                <img
+                  src="./img/picture1.jpg"
+                  width="370"
+                  height="294"
+                  alt="worck with computer"
+                />
               </div>
             </li>
             <li class="ability-img">
               <div class="label">
                 <div class="label-item">
-                <p class="label-text">Дизайнерские решения</p>
+                  <p class="label-text">Мобильные приложения</p>
                 </div>
-              <img
-                src="./img/picture3.jpg"
-                width="370"
-                height="294"
-                alt="picture with computer"
-              />
+                <img
+                  src="./img/picture2.jpg"
+                  width="370"
+                  height="294"
+                  alt="hand with phone"
+                />
+              </div>
+            </li>
+            <li class="ability-img">
+              <div class="label">
+                <div class="label-item">
+                  <p class="label-text">Дизайнерские решения</p>
+                </div>
+                <img
+                  src="./img/picture3.jpg"
+                  width="370"
+                  height="294"
+                  alt="picture with computer"
+                />
               </div>
             </li>
           </ul>
