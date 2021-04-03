@@ -686,6 +686,17 @@ footer {
   display: flex;
 }
 
+/*  модальное окно */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+
 /* Портфолио */
 
 .decor-portfolio::after {
