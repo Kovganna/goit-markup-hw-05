@@ -771,6 +771,7 @@ footer {
   height: 4px;
   position: absolute;
   top: 76px;
+  border-radius: 2px;
   background-color: currentColor;
 }
 
