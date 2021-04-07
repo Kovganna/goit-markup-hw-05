@@ -880,7 +880,7 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-thumb:hover .overlay {
+.magic:hover .overlay{  
   transform: translateY(0);
 }
 
@@ -892,9 +892,14 @@ footer {
 }
 
 .img-content {
-  position: static;
+  position: relative;
   padding: 20px 24px;
   color: var(--primary-text-color);
+  
+}
+
+.magic{
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) translateY(100%) ;
 }
 
 .portfolio-thumb {
